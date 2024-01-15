@@ -56,6 +56,54 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Paikkavaihdos",
+            "id": "bf8ef248-bed0-4d7e-8db8-2e4300975495",
+            "actions": [
+                {
+                    "name": "Paikkavaihdos",
+                    "type": "Button",
+                    "id": "7a518240-7f96-4bff-9e96-1fe273b8bbfa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Paikkavaihdostakaisin",
+                    "type": "Button",
+                    "id": "e25a16d4-9bb5-46e7-869c-812ef40b8b75",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9066a599-8032-44fc-9285-fcef628630ec",
+                    "path": "<XRController>{LeftHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Paikkavaihdos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9b201d6f-0493-4d75-a2a1-3426cbc51363",
+                    "path": "<XRController>{LeftHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Paikkavaihdostakaisin",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []
