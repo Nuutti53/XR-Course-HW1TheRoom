@@ -1,0 +1,62 @@
+{
+    "name": "ACTION MAPPING",
+    "maps": [
+        {
+            "name": "Quit Button",
+            "id": "b656c27c-e928-4e35-9bad-6ff845ada7ec",
+            "actions": [
+                {
+                    "name": "Quit",
+                    "type": "Button",
+                    "id": "7f5b8bfd-322c-46bb-8ba5-94cb03bdfef8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "36a2e762-4f89-4852-89a7-944043bbb6fd",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Quit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Light",
+            "id": "995ad20b-4f21-45f0-ad27-8b6b82aaf387",
+            "actions": [
+                {
+                    "name": "Light Switch",
+                    "type": "Button",
+                    "id": "310896b1-ddb1-4d0f-b9b2-6fdcc5a93782",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e45765b1-6e7a-4e0a-bad1-7c03fd1a3d6c",
+                    "path": "<XRController>{RightHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Light Switch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
