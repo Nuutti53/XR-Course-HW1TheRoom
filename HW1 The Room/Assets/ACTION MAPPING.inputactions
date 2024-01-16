@@ -26,6 +26,17 @@
                     "action": "Quit",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "217ad5cf-d755-4153-90fe-d8f0a6cac673",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Quit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -48,6 +59,17 @@
                     "name": "",
                     "id": "e45765b1-6e7a-4e0a-bad1-7c03fd1a3d6c",
                     "path": "<XRController>{RightHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Light Switch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b3af2cb3-2e70-4f35-b04e-fb755f23ee9d",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -94,8 +116,30 @@
                 },
                 {
                     "name": "",
+                    "id": "7b73513d-2210-4fa6-a5e5-f2510e750f07",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Paikkavaihdos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "9b201d6f-0493-4d75-a2a1-3426cbc51363",
                     "path": "<XRController>{LeftHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Paikkavaihdostakaisin",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b7d5ea55-0414-4962-ab32-8550ca3f332d",
+                    "path": "<Keyboard>/2",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
