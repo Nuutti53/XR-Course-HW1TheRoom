@@ -21,7 +21,22 @@ public class Valokatkaisin : MonoBehaviour
     {
         action.action.performed += (ctx) =>
         {
-            light.color = Color.red;
+            if (light.color == Color.white) {
+                light.color = Color.red;
+            }
+            else if (light.color == Color.red) {
+                light.color = Color.green;
+            }
+            else if (light.color == Color.green) {
+                light.color = Color.blue;
+            }
+            else if (light.color == Color.blue) {
+                light.color = Color.yellow;
+            }
+            else
+                light.color = Color.white;
+
         };
+        
     }
 }
