@@ -1674,7 +1674,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7515670ec6e43924285e62db4655e6ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TeleporttiPosition: {x: 0, y: 15, z: -50}
+  TeleporttiPosition: {x: -7, y: 9, z: -22.5}
   "alkuper\xE4inenPosition": {x: -6, y: 5, z: -9}
   Vaihto: {fileID: -8363231187956256139, guid: 328007a94877c4045aa2cb8f91f7c847, type: 3}
   VaihtoTakaisin: {fileID: 1942007254131713847, guid: 328007a94877c4045aa2cb8f91f7c847,
@@ -1820,6 +1820,7 @@ Transform:
   - {fileID: 170840556}
   - {fileID: 936275226}
   - {fileID: 308533484}
+  - {fileID: 1430212853}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1418186014
@@ -2375,18 +2376,18 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1430212849}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -2.020218}
+  m_LocalPosition: {x: 0, y: 0, z: -4.99}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 842582816}
   - {fileID: 1803817854}
   - {fileID: 2030983125}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1041771574}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -1975.1094, y: -797.08246}
+  m_AnchoredPosition: {x: 14.42, y: 8.55}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1449532805
@@ -3357,7 +3358,7 @@ Transform:
   m_GameObject: {fileID: 2074289874}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.66, y: 26.21, z: -84.5}
+  m_LocalPosition: {x: -7, y: 10, z: -23}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3448,4 +3449,3 @@ SceneRoots:
   - {fileID: 577918056}
   - {fileID: 2037478022}
   - {fileID: 2046492525}
-  - {fileID: 1430212853}
