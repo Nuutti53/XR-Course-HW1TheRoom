@@ -2813,7 +2813,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Left Controller
+  m_text: 'Right Controller
 
     A -> Quit
 
@@ -2953,7 +2953,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Right Controller
+  m_text: 'Left Controller
 
     X -> Switch to outside Vantage point
 
